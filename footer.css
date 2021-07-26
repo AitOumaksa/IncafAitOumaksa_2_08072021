@@ -1,0 +1,29 @@
+
+/* footer partie mobile*/
+footer{
+    background-color:#F2F2F2 ;
+    display: grid;
+    grid-template: "about"
+                    "accomodation"
+                    "assistant"; 
+    padding-left: 40px;  
+    padding-bottom: 20px;  
+    padding-top: 10px;             
+}
+
+.title_footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.list{
+    padding-inline-start: 0px;
+}
+.list-info{
+    padding-bottom: 15px;
+    list-style-type: none;
+    
+}
+.list-info > a{
+text-decoration: none;
+color: black;
+}

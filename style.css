@@ -1,0 +1,11 @@
+@import 'header.css';
+@import 'main.css';
+@import 'footer.css';
+*{margin: 0px ; padding: 0px;}
+a{text-decoration: none;
+    color: black;}
+body{
+    font-family: 'raleway', sans-serif;
+   margin : 0px;
+   text-decoration: none;
+}

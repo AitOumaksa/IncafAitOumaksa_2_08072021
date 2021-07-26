@@ -1,0 +1,64 @@
+
+/*Header Partie mobile*/
+header {
+    display: grid;
+    grid-template:"top-left  top-right" 110px
+                  "bottom  bottom"  35px ;
+}
+
+#logo {
+    grid-area:  top-left;
+    padding-top: 30px;
+    padding-left: 22px;
+}
+
+.singup{
+    grid-area:  top-right;
+    text-align: right ;
+    padding-top: 45px;
+    padding-right: 22px;  
+}
+#sinscrire {  
+    text-decoration: none;
+    color:#0065FC;
+    font-weight: bold;
+}
+.menu_nav {
+    grid-area: bottom ;
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+}
+.item-menu {
+    grid-area: bottom; 
+    flex : 1;   
+    border-bottom: solid 3px #F2F2F2;
+    text-decoration: none;
+    color: black;
+}
+.item-menu:hover{   
+    border-bottom: #0065FC solid 3px;
+    color: #0065FC ;
+}
+@media screen and (min-width:768px){
+  /*breakpoint tablette*/
+    header {
+        grid-template:"top-left top top top-right" 110px / auto 165px 165px 110px;
+    }
+    .menu_nav {
+        grid-area: top ;
+       
+    }
+    .item-menu {
+        grid-area: top; 
+        border-top: #FFFFFF solid 3px;
+        border-bottom: none;
+        text-decoration: none;
+        padding-top: 42px;
+    }
+    .item-menu:hover{   
+        border-top: #0065FC solid 3px;
+        border-bottom: none;
+        color: #0065FC ;
+    }
+}
