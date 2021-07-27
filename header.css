@@ -62,3 +62,9 @@ header {
         color: #0065FC ;
     }
 }
+@media screen and (min-width:992px){
+    header{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
