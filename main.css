@@ -180,9 +180,9 @@ aside{
 
 .section_1{
     background-color: white;
+    margin-top: 40px;
 }
 .title-of-accomodations{
-    padding-top: 40px;
     padding-left: 20px;
     padding-bottom: 23px;
     
@@ -385,6 +385,7 @@ aside{
     }
     /*section_1 partie disktopn et disktop large*/
     .section_1{
+        margin-top: 0px;
         height:600px;
         background-color: #F2F2F2;
         border-radius: 20px;
