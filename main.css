@@ -327,8 +327,9 @@ aside{
 @media screen and (min-width:992px){
     /*breakpoint desktop et desktop large*/
     main{
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        
     }
     /*zone search partie desktop et desktop large*/
     .searching{
@@ -365,7 +366,7 @@ aside{
         margin-left: 20px;
         padding-left: 25px;
         padding-right: 25px;
-        width: 250px;
+        width: 275px;
     }
     .title_2{
         grid-column: span 1;
@@ -423,6 +424,8 @@ aside{
         display: grid;
         grid-template: repeat(3,auto)/repeat(4,1fr);  
         grid-column-gap: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .title-of-activités{
         padding-left: 0px;
@@ -455,10 +458,7 @@ aside{
     #activity_3{
      grid-column: 2 ;    
      align-self: flex-end;
-    height : 165px;
-    }
-    #card_photo3{
-     height: 112px;
+    height : 172px;
     }
     #activity_4{
         grid-column: 3;
@@ -469,16 +469,10 @@ aside{
     #activity_2{
         height: 240px; 
     }
-    #card_photo2{
-   height: 182px;
-    }
     #activity_5{
      grid-row: 2;
      grid-column: 4;
      height: 194px; 
-    }
-    #card_photo5{
-        height: 152px; 
     }
     #activity_6{
         grid-row: 3;
