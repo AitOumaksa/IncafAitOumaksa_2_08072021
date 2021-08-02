@@ -1,6 +1,6 @@
 
 /*Header Partie mobile*/
-header {
+header { 
     display: grid;
     grid-template:"top-left  top-right" 110px
                   "bottom  bottom"  35px ;

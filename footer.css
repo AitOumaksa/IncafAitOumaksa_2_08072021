@@ -1,6 +1,6 @@
 
 /* footer partie mobile*/
-footer{
+footer{ 
     background-color:#F2F2F2 ;
     display: grid;
     grid-template: "about"
