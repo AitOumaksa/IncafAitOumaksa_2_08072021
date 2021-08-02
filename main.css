@@ -483,7 +483,7 @@ aside{
     #activity_1{
         grid-row: span 2;
         height: 100%;
-        width: 98%;
+        width: 100%;
     }
     #activity_3{
      grid-column: 2 ;    
@@ -494,7 +494,7 @@ aside{
         grid-column: 3;
         grid-row: 2 /4;
         height: 100%;
-        width: 98%;
+        width: 100%;
     }   
     #activity_2{
         height: 240px; 
