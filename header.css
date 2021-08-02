@@ -62,9 +62,16 @@ header {
         color: #0065FC ;
     }
 }
+@media screen and (min-width:768px){
+    .singup{padding-right: 20px;}
+    #logo{padding-left: 20px;}
+}
 @media screen and (min-width:992px){
-    header{
+
+    .singup{
         padding-right: 25px;
+    }
+    #logo{
         padding-left: 25px;
     }
 }
